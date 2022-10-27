@@ -13,18 +13,16 @@ export const fallbackSections = {
 };
 
 const SectionMaintenanceMode = props => {
-  const {
-    sectionId,  
-  } = props;
+  const { sectionId } = props;
 
   return (
-    <section
-      id={sectionId}
-      className={css.root}
-    >
+    <section id={sectionId} className={css.root}>
       <div className={css.content}>
         <h1>Maintenance mode</h1>
-        <p>The marketplace is not fully operational at the moment. Try refreshing the page and if that does not solve the issue, contact the marketplace admins.</p>
+        <p>
+          The marketplace is not fully operational at the moment. Try refreshing the page and if
+          that does not solve the issue, contact the marketplace admins.
+        </p>
       </div>
     </section>
   );
